@@ -1,24 +1,24 @@
 <form class="create-account-form">
 
   <table class="create-account-full-width"><tr>
-    <td><mat-form-field class="example-full-width" appearance="fill">
+    <td><mat-form-field class="example-full-width" appearance="outline">
       <mat-label>Full name</mat-label>
-      <input matInput required>
+      <input matInput required placeholder="jnyhjh">
     </mat-form-field></td>
 
-    <td><mat-form-field class="create-account-full-width" appearance="fill">
+    <td><mat-form-field class="create-account-full-width" appearance="outline">
       <mat-label>Username</mat-label>
       <input matInput required>
     </mat-form-field></td>
   </tr></table>
 
   <table class="create-account-full-width"><tr>
-    <td><mat-form-field class="create-account-full-width" appearance="fill">
+    <td><mat-form-field class="create-account-full-width" appearance="outline">
       <mat-label>Email</mat-label>
       <input matInput required type="email" id="email">
     </mat-form-field></td>
 
-    <td><mat-form-field class="create-account-full-width" appearance="fill">
+    <td><mat-form-field class="create-account-full-width" appearance="outline">
       <mat-label>Phone number</mat-label>
       <input matInput required>
     </mat-form-field></td>
@@ -26,12 +26,12 @@
 
   <p>
 
-    <mat-form-field class="create-account-full-width" appearance="fill">
+    <mat-form-field class="create-account-full-width" appearance="outline">
       <mat-label>Address line</mat-label>
       <textarea matInput required></textarea>
     </mat-form-field>
 
-    <mat-form-field class="create-account-full-width" appearance="fill">
+    <mat-form-field class="create-account-full-width" appearance="outline">
       <mat-label>Suite</mat-label>
       <textarea matInput></textarea>
     </mat-form-field>
@@ -39,15 +39,18 @@
 
   <table class="create-account-full-width"><tr>
 
-    <td><mat-form-field class="create-account-full-width" appearance="fill">
+    <td><mat-form-field class="create-account-full-width" appearance="outline">
       <mat-label>City</mat-label>
       <input matInput required>
     </mat-form-field></td>
 
-    <td><mat-form-field class="create-account-full-width" appearance="fill">
+    <td><mat-form-field class="create-account-full-width" appearance="outline">
       <mat-label>ZIP Code</mat-label>
       <input matInput required maxlength="5">
     </mat-form-field></td>
 
-  </tr></table>
+  </tr>
+    <button mat-raised-button color="primary" class="button-create-account">Create Account</button>
+
+  </table>
 </form>
