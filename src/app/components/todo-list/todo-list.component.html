@@ -1,0 +1,26 @@
+<div class="all-todos">
+  <div class="header-add-todo">
+    <h1>All ToDo's</h1>
+    <button mat-raised-button (click)="addTask()" class="add-todo-button">Add a ToDo</button>
+  </div>
+
+
+  <div class="list-container" *ngFor="let task of Tasks">
+    <mat-checkbox [(ngModel)]="task.completed"></mat-checkbox>
+    <span class="text-task" [class.stroke]="task.completed" >{{ task.title }}</span>
+
+    <div class="buttons">
+      <button mat-icon-button (click)="editTask(task.id)" class="button-icon edit">
+        <mat-icon>border_color</mat-icon>
+      </button>
+      <button mat-icon-button (click)="deleteTask(task.id)" class="button-icon delete">
+        <mat-icon>delete</mat-icon>
+      </button>
+    </div>
+
+
+
+  </div>
+</div>
+
+

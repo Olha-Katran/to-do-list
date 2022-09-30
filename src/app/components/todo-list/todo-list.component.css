@@ -1,0 +1,73 @@
+.header-add-todo {
+  display: flex;
+  justify-content: space-between;
+  color: #30313A;
+}
+
+h1 {
+  text-align: left;
+  padding: 10px;
+  font-size: 32px;
+}
+
+.add-todo-button {
+  height: 32px;
+  background: linear-gradient(90deg, #38EE7E 0%, #1FA49B 100%);
+  box-shadow: 0 4px 14px rgba(44, 203, 139, 0.3);
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.list-container {
+  display: flex;
+  border: 1px solid grey;
+  padding-top: 15px;
+  margin-top: 30px;
+  padding-bottom: 15px;
+  border-radius: 15px;
+  min-height: 40px;
+}
+
+.text-task {
+  max-width: 85%;
+  margin-right: 15px;
+}
+
+span.text-task {
+  align-self: stretch;
+  flex-grow: 1;
+  margin-left: 15px;
+  color: #30313A;
+  font-size: 18px;
+}
+
+.stroke {
+  text-decoration: line-through;
+}
+
+mat-checkbox {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  color: #2CC88E;
+}
+
+.button-icon {
+  width: 15px;
+  height: 15px;
+  color: #686974;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.button-icon edit {
+  /*margin-left: 30px;*/
+}
+
+

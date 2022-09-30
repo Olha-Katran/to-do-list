@@ -1,0 +1,31 @@
+.dialog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+h1{
+  font-size: 26px;
+}
+
+.close-button {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  left: 20px;
+  font-size: 12px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.confirm-button {
+  width: 200px;
+  background: linear-gradient(270deg, #1EA39B 0%, #38EF7D 100%);
+  box-shadow: 0px 4px 14px rgba(44, 203, 139, 0.3);
+  color: #FFFFFF;
+}

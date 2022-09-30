@@ -1,0 +1,13 @@
+.main-header {
+  margin-top: 0;
+  padding-left: 30px;
+  height: 80px;
+  background: #FFFFFF;
+  border: 1px solid #E1E1E1;
+}
+
+mat-icon {
+  margin: 24px 0 23px 100px;
+  width: 120px;
+  height: 33px;
+}
