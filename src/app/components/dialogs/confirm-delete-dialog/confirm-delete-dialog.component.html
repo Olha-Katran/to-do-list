@@ -1,0 +1,14 @@
+<div class="dialog-container">
+  <div class="close-button">
+    <button mat-button (click)="onNoClick()">X</button>
+  </div>
+
+  <h1 mat-dialog-title>Removing a ToDo</h1>
+  <div mat-dialog-content>
+    <p>Are you sure you want to remove this ToDo? It would be impossible to restore it afterwards</p>
+    <p><em>{{data.title}}</em></p>
+  </div>
+
+  <button mat-raised-button mat-dialog-close="true">Yes, Remove ToDo</button>
+</div>
+

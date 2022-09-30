@@ -1,0 +1,20 @@
+<div class="dialog-container">
+  <div class="close-button">
+    <button mat-button (click)="onNoClick()">X</button>
+  </div>
+
+  <div class="flex-container">
+    <h1 mat-dialog-title>Add a ToDo</h1>
+    <div mat-dialog-content>
+      <mat-form-field appearance="outline">
+        <textarea matInput [(ngModel)]="data.title" placeholder="Start typing..."></textarea>
+      </mat-form-field>
+    </div>
+    <div mat-dialog-actions>
+      <button mat-raised-button [mat-dialog-close]="data.title" class="confirm-button">Save ToDo</button>
+    </div>
+  </div>
+
+
+</div>
+

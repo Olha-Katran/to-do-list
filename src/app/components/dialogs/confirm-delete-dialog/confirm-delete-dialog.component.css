@@ -1,0 +1,19 @@
+.close-button {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  left: 20px;
+  font-size: 12px;
+}
+
+.dialog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: stretch;
+}
+
+em {
+  font-weight: bold;
+}

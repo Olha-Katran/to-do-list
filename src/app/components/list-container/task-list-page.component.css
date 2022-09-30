@@ -1,0 +1,9 @@
+.list-container {
+  margin-top: 150px;
+  height: 600px;
+  margin-left: 20%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
